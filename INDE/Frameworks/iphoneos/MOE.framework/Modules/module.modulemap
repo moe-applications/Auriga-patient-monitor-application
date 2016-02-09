@@ -1,6 +1,0 @@
-framework module MOE {
-  umbrella header "MOE.h"
-
-  export *
-  module * { export * }
-}
