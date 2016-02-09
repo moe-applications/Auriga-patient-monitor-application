@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E708DB71B6FA85200F66FD4 /* OpenGLWaves.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E708DB61B6FA85200F66FD4 /* OpenGLWaves.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E708DBD1B6FA85200F66FD4 /* OpenGLWaves.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E708DB11B6FA85200F66FD4 /* OpenGLWaves.framework */; };
+		3E708DC41B6FA85200F66FD4 /* OpenGLWavesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E708DC31B6FA85200F66FD4 /* OpenGLWavesTests.m */; };
+		3E79F6E61B70C3D00068A4B0 /* DPSampleQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E79F6E21B70C3D00068A4B0 /* DPSampleQueue.h */; };
+		3E79F6E71B70C3D00068A4B0 /* DPSampleQueue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E79F6E31B70C3D00068A4B0 /* DPSampleQueue.mm */; };
+		3E79F6F11B70C6A20068A4B0 /* ShaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E79F6EC1B70C6A20068A4B0 /* ShaderController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E79F6F21B70C6A20068A4B0 /* ShaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E79F6ED1B70C6A20068A4B0 /* ShaderController.m */; };
+		3E79F6F31B70C6A20068A4B0 /* Vertex.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E79F6EE1B70C6A20068A4B0 /* Vertex.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E79F6F61B70D2F10068A4B0 /* UIWaveFormVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E79F6F41B70D2F10068A4B0 /* UIWaveFormVC.h */; };
+		3E79F6F71B70D2F10068A4B0 /* UIWaveFormVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E79F6F51B70D2F10068A4B0 /* UIWaveFormVC.m */; };
+		3EC5436C1B7F9BDB0088D432 /* UIHRTrendFormVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EC5436A1B7F9BDB0088D432 /* UIHRTrendFormVC.h */; };
+		3EC5436D1B7F9BDB0088D432 /* UIHRTrendFormVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC5436B1B7F9BDB0088D432 /* UIHRTrendFormVC.m */; };
+		3EC543741B7FC7280088D432 /* UIARTTrendFormVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EC543721B7FC7280088D432 /* UIARTTrendFormVC.h */; };
+		3EC543751B7FC7280088D432 /* UIARTTrendFormVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC543731B7FC7280088D432 /* UIARTTrendFormVC.m */; };
+		3EC543781B7FC7450088D432 /* UISpO2TrendFormVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EC543761B7FC7450088D432 /* UISpO2TrendFormVC.h */; };
+		3EC543791B7FC7450088D432 /* UISpO2TrendFormVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC543771B7FC7450088D432 /* UISpO2TrendFormVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E708DBE1B6FA85200F66FD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E708DA81B6FA85200F66FD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E708DB01B6FA85200F66FD4;
+			remoteInfo = OpenGLWaves;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E708DB11B6FA85200F66FD4 /* OpenGLWaves.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenGLWaves.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E708DB51B6FA85200F66FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E708DB61B6FA85200F66FD4 /* OpenGLWaves.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLWaves.h; sourceTree = "<group>"; };
+		3E708DBC1B6FA85200F66FD4 /* OpenGLWavesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLWavesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E708DC21B6FA85200F66FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E708DC31B6FA85200F66FD4 /* OpenGLWavesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLWavesTests.m; sourceTree = "<group>"; };
+		3E79F6E21B70C3D00068A4B0 /* DPSampleQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSampleQueue.h; sourceTree = "<group>"; };
+		3E79F6E31B70C3D00068A4B0 /* DPSampleQueue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DPSampleQueue.mm; sourceTree = "<group>"; };
+		3E79F6EC1B70C6A20068A4B0 /* ShaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderController.h; sourceTree = "<group>"; };
+		3E79F6ED1B70C6A20068A4B0 /* ShaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaderController.m; sourceTree = "<group>"; };
+		3E79F6EE1B70C6A20068A4B0 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		3E79F6F41B70D2F10068A4B0 /* UIWaveFormVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWaveFormVC.h; sourceTree = "<group>"; };
+		3E79F6F51B70D2F10068A4B0 /* UIWaveFormVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWaveFormVC.m; sourceTree = "<group>"; };
+		3EC5436A1B7F9BDB0088D432 /* UIHRTrendFormVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHRTrendFormVC.h; sourceTree = "<group>"; };
+		3EC5436B1B7F9BDB0088D432 /* UIHRTrendFormVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHRTrendFormVC.m; sourceTree = "<group>"; };
+		3EC543721B7FC7280088D432 /* UIARTTrendFormVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIARTTrendFormVC.h; sourceTree = "<group>"; };
+		3EC543731B7FC7280088D432 /* UIARTTrendFormVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIARTTrendFormVC.m; sourceTree = "<group>"; };
+		3EC543761B7FC7450088D432 /* UISpO2TrendFormVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISpO2TrendFormVC.h; sourceTree = "<group>"; };
+		3EC543771B7FC7450088D432 /* UISpO2TrendFormVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISpO2TrendFormVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E708DAD1B6FA85200F66FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E708DB91B6FA85200F66FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E708DBD1B6FA85200F66FD4 /* OpenGLWaves.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E708DA71B6FA85200F66FD4 = {
+			isa = PBXGroup;
+			children = (
+				3E708DB31B6FA85200F66FD4 /* OpenGLWaves */,
+				3E708DC01B6FA85200F66FD4 /* OpenGLWavesTests */,
+				3E708DB21B6FA85200F66FD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E708DB21B6FA85200F66FD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E708DB11B6FA85200F66FD4 /* OpenGLWaves.framework */,
+				3E708DBC1B6FA85200F66FD4 /* OpenGLWavesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E708DB31B6FA85200F66FD4 /* OpenGLWaves */ = {
+			isa = PBXGroup;
+			children = (
+				3E79F6E11B70C3640068A4B0 /* OpenGL Support */,
+				3E79F6E21B70C3D00068A4B0 /* DPSampleQueue.h */,
+				3E79F6E31B70C3D00068A4B0 /* DPSampleQueue.mm */,
+				3E708DB61B6FA85200F66FD4 /* OpenGLWaves.h */,
+				3E79F6F41B70D2F10068A4B0 /* UIWaveFormVC.h */,
+				3E79F6F51B70D2F10068A4B0 /* UIWaveFormVC.m */,
+				3EC5436A1B7F9BDB0088D432 /* UIHRTrendFormVC.h */,
+				3EC5436B1B7F9BDB0088D432 /* UIHRTrendFormVC.m */,
+				3EC543721B7FC7280088D432 /* UIARTTrendFormVC.h */,
+				3EC543731B7FC7280088D432 /* UIARTTrendFormVC.m */,
+				3EC543761B7FC7450088D432 /* UISpO2TrendFormVC.h */,
+				3EC543771B7FC7450088D432 /* UISpO2TrendFormVC.m */,
+				3E708DB41B6FA85200F66FD4 /* Supporting Files */,
+			);
+			path = OpenGLWaves;
+			sourceTree = "<group>";
+		};
+		3E708DB41B6FA85200F66FD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E708DB51B6FA85200F66FD4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E708DC01B6FA85200F66FD4 /* OpenGLWavesTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E708DC31B6FA85200F66FD4 /* OpenGLWavesTests.m */,
+				3E708DC11B6FA85200F66FD4 /* Supporting Files */,
+			);
+			path = OpenGLWavesTests;
+			sourceTree = "<group>";
+		};
+		3E708DC11B6FA85200F66FD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E708DC21B6FA85200F66FD4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E79F6E11B70C3640068A4B0 /* OpenGL Support */ = {
+			isa = PBXGroup;
+			children = (
+				3E79F6EC1B70C6A20068A4B0 /* ShaderController.h */,
+				3E79F6ED1B70C6A20068A4B0 /* ShaderController.m */,
+				3E79F6EE1B70C6A20068A4B0 /* Vertex.h */,
+			);
+			name = "OpenGL Support";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E708DAE1B6FA85200F66FD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E79F6F61B70D2F10068A4B0 /* UIWaveFormVC.h in Headers */,
+				3EC5436C1B7F9BDB0088D432 /* UIHRTrendFormVC.h in Headers */,
+				3E79F6F31B70C6A20068A4B0 /* Vertex.h in Headers */,
+				3EC543741B7FC7280088D432 /* UIARTTrendFormVC.h in Headers */,
+				3E79F6F11B70C6A20068A4B0 /* ShaderController.h in Headers */,
+				3EC543781B7FC7450088D432 /* UISpO2TrendFormVC.h in Headers */,
+				3E79F6E61B70C3D00068A4B0 /* DPSampleQueue.h in Headers */,
+				3E708DB71B6FA85200F66FD4 /* OpenGLWaves.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E708DB01B6FA85200F66FD4 /* OpenGLWaves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E708DC71B6FA85200F66FD4 /* Build configuration list for PBXNativeTarget "OpenGLWaves" */;
+			buildPhases = (
+				3E708DAC1B6FA85200F66FD4 /* Sources */,
+				3E708DAD1B6FA85200F66FD4 /* Frameworks */,
+				3E708DAE1B6FA85200F66FD4 /* Headers */,
+				3E708DAF1B6FA85200F66FD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLWaves;
+			productName = OpenGLWaves;
+			productReference = 3E708DB11B6FA85200F66FD4 /* OpenGLWaves.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E708DBB1B6FA85200F66FD4 /* OpenGLWavesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E708DCA1B6FA85200F66FD4 /* Build configuration list for PBXNativeTarget "OpenGLWavesTests" */;
+			buildPhases = (
+				3E708DB81B6FA85200F66FD4 /* Sources */,
+				3E708DB91B6FA85200F66FD4 /* Frameworks */,
+				3E708DBA1B6FA85200F66FD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E708DBF1B6FA85200F66FD4 /* PBXTargetDependency */,
+			);
+			name = OpenGLWavesTests;
+			productName = OpenGLWavesTests;
+			productReference = 3E708DBC1B6FA85200F66FD4 /* OpenGLWavesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E708DA81B6FA85200F66FD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Auriga;
+				TargetAttributes = {
+					3E708DB01B6FA85200F66FD4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3E708DBB1B6FA85200F66FD4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 3E708DAB1B6FA85200F66FD4 /* Build configuration list for PBXProject "OpenGLWaves" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E708DA71B6FA85200F66FD4;
+			productRefGroup = 3E708DB21B6FA85200F66FD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E708DB01B6FA85200F66FD4 /* OpenGLWaves */,
+				3E708DBB1B6FA85200F66FD4 /* OpenGLWavesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E708DAF1B6FA85200F66FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E708DBA1B6FA85200F66FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E708DAC1B6FA85200F66FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC543791B7FC7450088D432 /* UISpO2TrendFormVC.m in Sources */,
+				3E79F6E71B70C3D00068A4B0 /* DPSampleQueue.mm in Sources */,
+				3E79F6F71B70D2F10068A4B0 /* UIWaveFormVC.m in Sources */,
+				3EC5436D1B7F9BDB0088D432 /* UIHRTrendFormVC.m in Sources */,
+				3EC543751B7FC7280088D432 /* UIARTTrendFormVC.m in Sources */,
+				3E79F6F21B70C6A20068A4B0 /* ShaderController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E708DB81B6FA85200F66FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E708DC41B6FA85200F66FD4 /* OpenGLWavesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E708DBF1B6FA85200F66FD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E708DB01B6FA85200F66FD4 /* OpenGLWaves */;
+			targetProxy = 3E708DBE1B6FA85200F66FD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E708DC51B6FA85200F66FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E708DC61B6FA85200F66FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E708DC81B6FA85200F66FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OpenGLWaves/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3E708DC91B6FA85200F66FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OpenGLWaves/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3E708DCB1B6FA85200F66FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenGLWavesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E708DCC1B6FA85200F66FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenGLWavesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E708DAB1B6FA85200F66FD4 /* Build configuration list for PBXProject "OpenGLWaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E708DC51B6FA85200F66FD4 /* Debug */,
+				3E708DC61B6FA85200F66FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E708DC71B6FA85200F66FD4 /* Build configuration list for PBXNativeTarget "OpenGLWaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E708DC81B6FA85200F66FD4 /* Debug */,
+				3E708DC91B6FA85200F66FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E708DCA1B6FA85200F66FD4 /* Build configuration list for PBXNativeTarget "OpenGLWavesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E708DCB1B6FA85200F66FD4 /* Debug */,
+				3E708DCC1B6FA85200F66FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E708DA81B6FA85200F66FD4 /* Project object */;
+}

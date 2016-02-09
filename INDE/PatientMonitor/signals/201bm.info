@@ -1,0 +1,17 @@
+Source: record challenge/2009/test-set-b/201b/201b  Start: [15:00:00.000 12/04/2018]
+val has 9 rows (signals) and 1000000 columns (samples/signal)
+Duration:  2:13:20
+Sampling frequency: 125 Hz  Sampling interval: 0.008 sec
+Row	Signal	Gain	Base	Units
+1	RESP	1023	0	pm
+2	PLETH	1023	0	?
+3	ABP	5.11333	76	mmHg
+4	PAP	25.5667	76	mmHg
+5	CVP	39.35	78	mmHg
+6	ECG II	510	256	mV
+7	ECG V	510	256	mV
+8	ECG AVR	510	256	mV
+9	ART	7.7	76	mmHg
+
+To convert from raw units to the physical units shown
+above, subtract 'base' and divide by 'gain'.

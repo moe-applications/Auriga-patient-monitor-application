@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AC4B05C1B7C899900CF827D /* ARR.dat in Resources */ = {isa = PBXBuildFile; fileRef = 0AC4B0521B7C899900CF827D /* ARR.dat */; };
+		0AC4B05D1B7C899900CF827D /* ECG1.dat in Resources */ = {isa = PBXBuildFile; fileRef = 0AC4B0531B7C899900CF827D /* ECG1.dat */; };
+		0AC4B05E1B7C899900CF827D /* ECG2.dat in Resources */ = {isa = PBXBuildFile; fileRef = 0AC4B0541B7C899900CF827D /* ECG2.dat */; };
+		0AC4B05F1B7C899900CF827D /* ECG3.dat in Resources */ = {isa = PBXBuildFile; fileRef = 0AC4B0551B7C899900CF827D /* ECG3.dat */; };
+		0AC4B0601B7C899900CF827D /* SpO2.dat in Resources */ = {isa = PBXBuildFile; fileRef = 0AC4B0561B7C899900CF827D /* SpO2.dat */; };
+		0AC4B0611B7C899900CF827D /* tART_D.dat in Resources */ = {isa = PBXBuildFile; fileRef = 0AC4B0571B7C899900CF827D /* tART_D.dat */; };
+		0AC4B0621B7C899900CF827D /* tART_M.dat in Resources */ = {isa = PBXBuildFile; fileRef = 0AC4B0581B7C899900CF827D /* tART_M.dat */; };
+		0AC4B0631B7C899900CF827D /* tART_S.dat in Resources */ = {isa = PBXBuildFile; fileRef = 0AC4B0591B7C899900CF827D /* tART_S.dat */; };
+		0AC4B0641B7C899900CF827D /* tHR.dat in Resources */ = {isa = PBXBuildFile; fileRef = 0AC4B05A1B7C899900CF827D /* tHR.dat */; };
+		0AC4B0651B7C899900CF827D /* tSpO2.dat in Resources */ = {isa = PBXBuildFile; fileRef = 0AC4B05B1B7C899900CF827D /* tSpO2.dat */; };
+		3976189D7CCF97F713DEA95A /* preregister.txt in Resources */ = {isa = PBXBuildFile; fileRef = 86F3305A35138125E07048D9 /* preregister.txt */; };
+		3B9DCE08ABBB0BB06910A912 /* ../src/main/resources/MainUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9258A5D3482A5D6DA4DB7FAA /* ../src/main/resources/MainUI.storyboard */; };
+		3E3114341B8107A600D961A2 /* ScaleTrends.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3114331B8107A600D961A2 /* ScaleTrends.png */; };
+		3E3607861B7B396E00208EEB /* STI.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3607821B7B396E00208EEB /* STI.png */; };
+		3E555ACC1B7B7E88008F6F1C /* MOE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E555ACA1B7B7E88008F6F1C /* MOE.framework */; };
+		3E555ACD1B7B7E89008F6F1C /* MOE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3E555ACA1B7B7E88008F6F1C /* MOE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3E85B9D01B6E529F00D44D46 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E85B9CF1B6E529F00D44D46 /* LaunchScreen.xib */; };
+		3E85B9D41B6E53DB00D44D46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E85B9D31B6E53DB00D44D46 /* Images.xcassets */; };
+		3ECB485F1B7E3BE400ED1DA1 /* OpenGLWaves.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECB485E1B7E3BE400ED1DA1 /* OpenGLWaves.framework */; };
+		3ECB48601B7E3BE400ED1DA1 /* OpenGLWaves.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECB485E1B7E3BE400ED1DA1 /* OpenGLWaves.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3ECD97EF1B7DE35D00E364A8 /* ScaleMainscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECD97EE1B7DE35D00E364A8 /* ScaleMainscreen.png */; };
+		3ECD97F11B7DF51400E364A8 /* ScaleFullECG.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECD97F01B7DF51400E364A8 /* ScaleFullECG.png */; };
+		944B3B521B7E09900034FC02 /* ScaleDetails.png in Resources */ = {isa = PBXBuildFile; fileRef = 944B3B511B7E09900034FC02 /* ScaleDetails.png */; };
+		E7CC0ABFF1B244C942FE5CE1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAB3D3B256EA88335C7F5571 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E555AD01B7B7E89008F6F1C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3ECB48601B7E3BE400ED1DA1 /* OpenGLWaves.framework in Embed Frameworks */,
+				3E555ACD1B7B7E89008F6F1C /* MOE.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AC4B0521B7C899900CF827D /* ARR.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = ARR.dat; path = ../../signals/ARR.dat; sourceTree = "<group>"; };
+		0AC4B0531B7C899900CF827D /* ECG1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = ECG1.dat; path = ../../signals/ECG1.dat; sourceTree = "<group>"; };
+		0AC4B0541B7C899900CF827D /* ECG2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = ECG2.dat; path = ../../signals/ECG2.dat; sourceTree = "<group>"; };
+		0AC4B0551B7C899900CF827D /* ECG3.dat */ = {isa = PBXFileReference; lastKnownFileType = text; name = ECG3.dat; path = ../../signals/ECG3.dat; sourceTree = "<group>"; };
+		0AC4B0561B7C899900CF827D /* SpO2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = SpO2.dat; path = ../../signals/SpO2.dat; sourceTree = "<group>"; };
+		0AC4B0571B7C899900CF827D /* tART_D.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = tART_D.dat; path = ../../signals/tART_D.dat; sourceTree = "<group>"; };
+		0AC4B0581B7C899900CF827D /* tART_M.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = tART_M.dat; path = ../../signals/tART_M.dat; sourceTree = "<group>"; };
+		0AC4B0591B7C899900CF827D /* tART_S.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = tART_S.dat; path = ../../signals/tART_S.dat; sourceTree = "<group>"; };
+		0AC4B05A1B7C899900CF827D /* tHR.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = tHR.dat; path = ../../signals/tHR.dat; sourceTree = "<group>"; };
+		0AC4B05B1B7C899900CF827D /* tSpO2.dat */ = {isa = PBXFileReference; lastKnownFileType = text; name = tSpO2.dat; path = ../../signals/tSpO2.dat; sourceTree = "<group>"; };
+		3E3114331B8107A600D961A2 /* ScaleTrends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ScaleTrends.png; path = ../src/main/resources/ScaleTrends.png; sourceTree = "<group>"; };
+		3E3607821B7B396E00208EEB /* STI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = STI.png; path = ../src/main/resources/STI.png; sourceTree = "<group>"; };
+		3E555ACA1B7B7E88008F6F1C /* MOE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOE.framework; sourceTree = "<group>"; };
+		3E85B9CE1B6E502F00D44D46 /* PatientMon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientMon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E85B9CF1B6E529F00D44D46 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../src/main/resources/LaunchScreen.xib; sourceTree = "<group>"; };
+		3E85B9D31B6E53DB00D44D46 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../src/main/resources/Images.xcassets; sourceTree = "<group>"; };
+		3ECB485E1B7E3BE400ED1DA1 /* OpenGLWaves.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenGLWaves.framework; sourceTree = "<group>"; };
+		3ECD97EE1B7DE35D00E364A8 /* ScaleMainscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ScaleMainscreen.png; path = ../src/main/resources/ScaleMainscreen.png; sourceTree = "<group>"; };
+		3ECD97F01B7DF51400E364A8 /* ScaleFullECG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ScaleFullECG.png; path = ../src/main/resources/ScaleFullECG.png; sourceTree = "<group>"; };
+		775768E46873F203BD1895DB /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		86F3305A35138125E07048D9 /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = preregister.txt; sourceTree = "<group>"; };
+		9258A5D3482A5D6DA4DB7FAA /* ../src/main/resources/MainUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ../src/main/resources/MainUI.storyboard; sourceTree = "<group>"; };
+		944B3B511B7E09900034FC02 /* ScaleDetails.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScaleDetails.png; sourceTree = "<group>"; };
+		EAB3D3B256EA88335C7F5571 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FD7E04998B8E02D2C64398EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		355764F94B00C97BA69891D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECB485F1B7E3BE400ED1DA1 /* OpenGLWaves.framework in Frameworks */,
+				3E555ACC1B7B7E88008F6F1C /* MOE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC4B0661B7C89A000CF827D /* signals */ = {
+			isa = PBXGroup;
+			children = (
+				0AC4B0521B7C899900CF827D /* ARR.dat */,
+				0AC4B0531B7C899900CF827D /* ECG1.dat */,
+				0AC4B0541B7C899900CF827D /* ECG2.dat */,
+				0AC4B0551B7C899900CF827D /* ECG3.dat */,
+				0AC4B0561B7C899900CF827D /* SpO2.dat */,
+				0AC4B0571B7C899900CF827D /* tART_D.dat */,
+				0AC4B0581B7C899900CF827D /* tART_M.dat */,
+				0AC4B0591B7C899900CF827D /* tART_S.dat */,
+				0AC4B05A1B7C899900CF827D /* tHR.dat */,
+				0AC4B05B1B7C899900CF827D /* tSpO2.dat */,
+			);
+			name = signals;
+			sourceTree = "<group>";
+		};
+		3114584506119FE1D09B44C3 /* PatientMon */ = {
+			isa = PBXGroup;
+			children = (
+				F7A92A35FE690C66A5969D9C /* Supporting Files */,
+			);
+			path = PatientMon;
+			sourceTree = "<group>";
+		};
+		65C899E94B438F6188D99492 = {
+			isa = PBXGroup;
+			children = (
+				3ECB485E1B7E3BE400ED1DA1 /* OpenGLWaves.framework */,
+				3E555ACA1B7B7E88008F6F1C /* MOE.framework */,
+				3114584506119FE1D09B44C3 /* PatientMon */,
+				E9C553DDB192369A1B0FC225 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		E9C553DDB192369A1B0FC225 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0AC4B0661B7C89A000CF827D /* signals */,
+				3E3607821B7B396E00208EEB /* STI.png */,
+				3ECD97EE1B7DE35D00E364A8 /* ScaleMainscreen.png */,
+				3ECD97F01B7DF51400E364A8 /* ScaleFullECG.png */,
+				944B3B511B7E09900034FC02 /* ScaleDetails.png */,
+				3E3114331B8107A600D961A2 /* ScaleTrends.png */,
+				3E85B9D31B6E53DB00D44D46 /* Images.xcassets */,
+				3E85B9CF1B6E529F00D44D46 /* LaunchScreen.xib */,
+				9258A5D3482A5D6DA4DB7FAA /* ../src/main/resources/MainUI.storyboard */,
+				3E85B9CE1B6E502F00D44D46 /* PatientMon.app */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F7A92A35FE690C66A5969D9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				775768E46873F203BD1895DB /* build.xcconfig */,
+				EAB3D3B256EA88335C7F5571 /* main.cpp */,
+				FD7E04998B8E02D2C64398EE /* Info.plist */,
+				86F3305A35138125E07048D9 /* preregister.txt */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D4D2090F7616A56EC8E6137 /* PatientMon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C4CEB8047F9B85FC3B1C7D /* Build configuration list for PBXNativeTarget "PatientMon" */;
+			buildPhases = (
+				FD7FE28ECB239F4DC62F7783 /* Compile Java Sources */,
+				355764F94B00C97BA69891D4 /* Frameworks */,
+				A141DEE34086D4DFF5A36245 /* Resources */,
+				8DCD11670E2FDD5465754C32 /* Sources */,
+				3E555AD01B7B7E89008F6F1C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			name = PatientMon;
+			productName = PatientMon;
+			productReference = 3E85B9CE1B6E502F00D44D46 /* PatientMon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077CE277ED1D458EE6D8B890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Auriga;
+				TargetAttributes = {
+					8D4D2090F7616A56EC8E6137 = {
+						DevelopmentTeam = R859536GPL;
+					};
+				};
+			};
+			buildConfigurationList = 36D9205F2100693FCB2EC760 /* Build configuration list for PBXProject "PatientMon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65C899E94B438F6188D99492;
+			productRefGroup = E9C553DDB192369A1B0FC225 /* Resources */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D4D2090F7616A56EC8E6137 /* PatientMon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A141DEE34086D4DFF5A36245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECD97EF1B7DE35D00E364A8 /* ScaleMainscreen.png in Resources */,
+				0AC4B05E1B7C899900CF827D /* ECG2.dat in Resources */,
+				0AC4B05F1B7C899900CF827D /* ECG3.dat in Resources */,
+				3E3114341B8107A600D961A2 /* ScaleTrends.png in Resources */,
+				3976189D7CCF97F713DEA95A /* preregister.txt in Resources */,
+				944B3B521B7E09900034FC02 /* ScaleDetails.png in Resources */,
+				3E3607861B7B396E00208EEB /* STI.png in Resources */,
+				0AC4B0651B7C899900CF827D /* tSpO2.dat in Resources */,
+				0AC4B0641B7C899900CF827D /* tHR.dat in Resources */,
+				3ECD97F11B7DF51400E364A8 /* ScaleFullECG.png in Resources */,
+				3E85B9D41B6E53DB00D44D46 /* Images.xcassets in Resources */,
+				0AC4B05D1B7C899900CF827D /* ECG1.dat in Resources */,
+				0AC4B0601B7C899900CF827D /* SpO2.dat in Resources */,
+				0AC4B0621B7C899900CF827D /* tART_M.dat in Resources */,
+				3E85B9D01B6E529F00D44D46 /* LaunchScreen.xib in Resources */,
+				0AC4B05C1B7C899900CF827D /* ARR.dat in Resources */,
+				0AC4B0611B7C899900CF827D /* tART_D.dat in Resources */,
+				0AC4B0631B7C899900CF827D /* tART_S.dat in Resources */,
+				3B9DCE08ABBB0BB06910A912 /* ../src/main/resources/MainUI.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FD7FE28ECB239F4DC62F7783 /* Compile Java Sources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Java Sources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "cd ../\n\nexport JAVA_HOME=$(/usr/libexec/java_home -v 1.8)\njava -version\n\nfunction gradlePath {\n\tCD=\"$PWD\"\n\twhile [ \"$CD\" != \"\" ]; do\n\t\tif [ -x \"$CD/gradlew\" ]; then\n\t\t\tGRADLE_PATH=$CD/gradlew\n\t\t\treturn 0\n\t\tfi\n\t\tCD=\"${CD%/*}\"\n\tdone\n\n\tGRADLE_PATH=$(which 'gradle')\n\n\tif [ \"$GRADLE_PATH\" = \"\" ]; then\n\t\tGRADLE_PATH=/usr/local/bin/gradle\n\tfi\n}\ngradlePath\n\nif [ \"$XRT_SKIP_DEX\" == \"Yes\" ]; then\n\techo \"Compiling ART only...\"\n\t\"$GRADLE_PATH\" --daemon buildArtOat -Pxrt.archs=${arch}\n\texit\nfi\n\n\"$GRADLE_PATH\" --daemon compileJava proguard buildPreregister buildRetro buildDex buildArtOat -Pxrt.archs=${arch}\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DCD11670E2FDD5465754C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CC0ABFF1B244C942FE5CE1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		338726AC2F05B88C125D6A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 775768E46873F203BD1895DB /* build.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"${XRT_FRAMEWORK_PATH}",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) ${XRT_FRAMEWORK_PATH}";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SYMROOT = ../build/xcode;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64585B3D00528FF0F7506818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 775768E46873F203BD1895DB /* build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iOS Distribution: Auriga Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Distribution: Auriga Inc.";
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SYSTEM_APPS_DIR)/Intel/INDE/multi_os_engine/sdk/iphonesimulator",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/OpenGLWaves-faujybmrqhutoacbgymzkzdemvuf/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = PatientMon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "${XRT_OTHER_LDFLAGS}";
+				PRODUCT_NAME = PatientMon;
+				PROVISIONING_PROFILE = "";
+				STRIP_STYLE = "non-global";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = "armv7 arm64 i386";
+			};
+			name = Release;
+		};
+		8F0A33615EE5A55190C675EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 775768E46873F203BD1895DB /* build.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"${XRT_FRAMEWORK_PATH}",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) ${XRT_FRAMEWORK_PATH}";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SYMROOT = ../build/xcode;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6DA9064CA7167CA89A7A523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 775768E46873F203BD1895DB /* build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SYSTEM_APPS_DIR)/Intel/INDE/multi_os_engine/sdk/iphonesimulator",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/OpenGLWaves-faujybmrqhutoacbgymzkzdemvuf/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = PatientMon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "${XRT_OTHER_LDFLAGS}";
+				PRODUCT_NAME = PatientMon;
+				PROVISIONING_PROFILE = "";
+				STRIP_STYLE = "non-global";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = "armv7 arm64 i386";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36D9205F2100693FCB2EC760 /* Build configuration list for PBXProject "PatientMon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338726AC2F05B88C125D6A7F /* Debug */,
+				8F0A33615EE5A55190C675EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C4CEB8047F9B85FC3B1C7D /* Build configuration list for PBXNativeTarget "PatientMon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DA9064CA7167CA89A7A523 /* Debug */,
+				64585B3D00528FF0F7506818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 077CE277ED1D458EE6D8B890 /* Project object */;
+}

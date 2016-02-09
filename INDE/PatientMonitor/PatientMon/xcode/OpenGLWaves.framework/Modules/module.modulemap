@@ -1,0 +1,6 @@
+framework module OpenGLWaves {
+  umbrella header "OpenGLWaves.h"
+
+  export *
+  module * { export * }
+}

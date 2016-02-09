@@ -1,0 +1,49 @@
+Source: record challenge/2009/test-set-b/201b/201bn  Start: [15:12:00.000 12/04/2018]
+val has 41 rows (signals) and 35280 columns (samples/signal)
+Duration:  9:48:00
+Sampling frequency: 1 Hz  Sampling interval: 1 sec
+Row	Signal	Gain	Base	Units
+1	HR	468.1	-27149	bpm
+2	HR_1/3	10	0	unknown
+3	HR_2/3	10	0	unknown
+4	HR_3/3	10	0	unknown
+5	PULSE	202.265	-5056	bpm
+6	PULSE_1/3	1000	24233	unknown
+7	PULSE_2/3	1000	-32767	unknown
+8	PULSE_3/3	1000	7233	unknown
+9	ABP	138.257	276	mmHg
+10	ABP Sys	214.163	-14777	mmHg
+11	ABP Dias	138.843	2776	mmHg
+12	ABP Mean	372.352	-13404	mmHg
+13	CVP	404.531	809	mmHg
+14	PAP	94.9768	474	mmHg
+15	PAP Sys	96.9438	290	mmHg
+16	PAP Dias	96.0909	864	mmHg
+17	PAP Mean	96.6578	579	mmHg
+18	ART	104.022	312	mmHg
+19	ART Sys	436.893	-24466	mmHg
+20	ART Dias	682.646	-19114	mmHg
+21	ART Mean	574.86	-22994	mmHg
+22	NBP	330.98	0	mmHg
+23	NBP Sys	1057	-124726	mmHg
+24	NBP Dias	1057	-67648	mmHg
+25	NBP Mean	1489.41	-116173	mmHg
+26	RESP	555.373	0	pm
+27	RESP_1/3	10	0	unknown
+28	RESP_2/3	10	0	unknown
+29	RESP_3/3	10	0	unknown
+30	PAWP	inf	-2147483648	?
+31	SpO2	364.078	-3640	%
+32	SpO2_1/3	10	0	unknown
+33	SpO2_2/3	10	0	unknown
+34	SpO2_3/3	10	0	unknown
+35	PVC Rate per Minute	186.176	0	?
+36	Rhythm Status	0.520012	-4	?
+37	Ectopic Status_1/2	2978.82	-187817465	unknown
+38	Ectopic Status_2/2	2520.54	0	unknown
+39	Ectopic Status_1/3	10	0	unknown
+40	Ectopic Status_2/3	10	0	unknown
+41	Ectopic Status_3/3	10	0	unknown
+
+To convert from raw units to the physical units shown
+above, subtract 'base' and divide by 'gain'.

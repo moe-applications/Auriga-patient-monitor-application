@@ -1,0 +1,13 @@
+com/Auriga/PatientMon/Main
+com/Auriga/PatientMon/ui/AllParamsVC
+com/Auriga/PatientMon/ui/FullECGVC
+com/Auriga/PatientMon/ui/LimitsVC
+com/Auriga/PatientMon/ui/MainMonitorVC
+com/Auriga/PatientMon/ui/MenuVC
+com/Auriga/PatientMon/ui/ParamDetailsVC
+com/Auriga/PatientMon/ui/PatientsTableVC
+com/Auriga/PatientMon/ui/TrendDetailsVC
+com/Auriga/PatientMon/ui/UIARTTrendFormVC
+com/Auriga/PatientMon/ui/UIHRTrendFormVC
+com/Auriga/PatientMon/ui/UISpO2TrendFormVC
+com/Auriga/PatientMon/ui/UIWaveFormVC
